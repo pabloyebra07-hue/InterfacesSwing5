@@ -39,8 +39,8 @@ public class DetectarEnter extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         JOptionPane.showMessageDialog(null,
-                "cuadro1: " + campoTexto.getText() +
-                        "\ncuadro2: " + new String(campoPassword.getPassword()));
+                "Cuadro1: " + campoTexto.getText() +
+                        "\nCuadro2: " + new String(campoPassword.getPassword()));
     }
 
 }
